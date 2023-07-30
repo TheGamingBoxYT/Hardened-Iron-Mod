@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hardenedironmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HardenedIronModModRepairItemRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "fabric_testing.refmap.json"
+}

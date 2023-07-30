@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hardened_iron_mod",
+  "version": "1.0.0",
+  "name": "Hardened Iron Mod",
+  "description": "This Mod Allows u To  Get Hardened Iron By Smelting Iron Ingots In A Furnace!",
+  "authors": [
+    "veosmh"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hardenedironmod.HardenedIronModMod"
+    ],
+    "client": [
+      "net.hardenedironmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "hardened_iron_mod.mixins.json"
+  ]
+}
